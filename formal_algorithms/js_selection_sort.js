@@ -5,7 +5,6 @@ var tempSwap = null;
 for (var i = 0; i < x.length - 1; i++){
     smallestIndex = i;
     for(var j = i + 1; j < x.length; j++){
-        console.log("J is: " + j);
         if(x[j] < x[smallestIndex]){
             smallestIndex = j;
         }
@@ -15,4 +14,4 @@ for (var i = 0; i < x.length - 1; i++){
     x[i] = tempSwap;
 }
 
-console.log(x);
+print(x);
